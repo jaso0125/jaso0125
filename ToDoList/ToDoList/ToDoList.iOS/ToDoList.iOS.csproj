@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{3731DFF2-4CDE-48C7-BFAA-B498788C5145}</ProjectGuid>
+    <ProjectGuid>{FEFF43ED-B3C2-4BE2-B902-28DD05E1D466}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TemplateGuid>{65C0771A-452F-423B-995C-F0AE46E643BA}</TemplateGuid>
     <OutputType>Exe</OutputType>
@@ -135,5 +135,10 @@
     <PackageReference Include="Xamarin.Forms" Version="3.4.0.1008975" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
-  <Import Project="..\ToDoList\ToDoList.projitems" Label="Shared" />
+  <ItemGroup>
+    <ProjectReference Include="..\ToDoList\ToDoList.csproj">
+      <Project>{94EB515D-45B1-4A81-80C5-37B8E0E42AED}</Project>
+      <Name>ToDoList</Name>
+    </ProjectReference>
+  </ItemGroup>
 </Project>

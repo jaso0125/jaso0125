@@ -5,9 +5,9 @@ C:\Dev\ToDoList\ToDoList\ToDoList.Android\obj\Debug\81\android\assets\Mono.Andro
 C:\Dev\ToDoList\ToDoList\ToDoList.Android\obj\Debug\81\android\assets\mscorlib.dll
 C:\Dev\ToDoList\ToDoList\ToDoList.Android\obj\Debug\81\android\assets\System.Core.dll
 C:\Dev\ToDoList\ToDoList\ToDoList.Android\obj\Debug\81\android\assets\System.dll
-C:\Dev\ToDoList\ToDoList\ToDoList.Android\obj\Debug\81\android\assets\System.Net.Http.dll
 C:\Dev\ToDoList\ToDoList\ToDoList.Android\obj\Debug\81\android\assets\System.Xml.dll
 C:\Dev\ToDoList\ToDoList\ToDoList.Android\obj\Debug\81\android\assets\System.Xml.Linq.dll
+C:\Dev\ToDoList\ToDoList\ToDoList.Android\obj\Debug\81\android\assets\ToDoList.dll
 C:\Dev\ToDoList\ToDoList\ToDoList.Android\obj\Debug\81\android\assets\Xamarin.Android.Arch.Core.Common.dll
 C:\Dev\ToDoList\ToDoList\ToDoList.Android\obj\Debug\81\android\assets\Xamarin.Android.Arch.Lifecycle.Common.dll
 C:\Dev\ToDoList\ToDoList\ToDoList.Android\obj\Debug\81\android\assets\Xamarin.Android.Arch.Lifecycle.Runtime.dll
@@ -31,6 +31,10 @@ C:\Dev\ToDoList\ToDoList\ToDoList.Android\obj\Debug\81\android\assets\Xamarin.Fo
 C:\Dev\ToDoList\ToDoList\ToDoList.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.Android.dll
 C:\Dev\ToDoList\ToDoList\ToDoList.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.dll
 C:\Dev\ToDoList\ToDoList\ToDoList.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.dll
+C:\Dev\ToDoList\ToDoList\ToDoList.Android\obj\Debug\81\android\assets\System.Net.Http.dll
+C:\Dev\ToDoList\ToDoList\ToDoList.Android\obj\Debug\81\android\assets\System.Runtime.Serialization.dll
+C:\Dev\ToDoList\ToDoList\ToDoList.Android\obj\Debug\81\android\assets\System.ServiceModel.Internals.dll
+C:\Dev\ToDoList\ToDoList\ToDoList.Android\obj\Debug\81\android\assets\Mono.Security.dll
 C:\Dev\ToDoList\ToDoList\ToDoList.Android\obj\Debug\81\android\assets\netstandard.dll
 C:\Dev\ToDoList\ToDoList\ToDoList.Android\obj\Debug\81\android\assets\System.Data.dll
 C:\Dev\ToDoList\ToDoList\ToDoList.Android\obj\Debug\81\android\assets\System.Numerics.dll
@@ -38,7 +42,4 @@ C:\Dev\ToDoList\ToDoList\ToDoList.Android\obj\Debug\81\android\assets\System.Tra
 C:\Dev\ToDoList\ToDoList\ToDoList.Android\obj\Debug\81\android\assets\System.IO.Compression.dll
 C:\Dev\ToDoList\ToDoList\ToDoList.Android\obj\Debug\81\android\assets\System.IO.Compression.FileSystem.dll
 C:\Dev\ToDoList\ToDoList\ToDoList.Android\obj\Debug\81\android\assets\System.ComponentModel.Composition.dll
-C:\Dev\ToDoList\ToDoList\ToDoList.Android\obj\Debug\81\android\assets\System.Runtime.Serialization.dll
-C:\Dev\ToDoList\ToDoList\ToDoList.Android\obj\Debug\81\android\assets\System.ServiceModel.Internals.dll
 C:\Dev\ToDoList\ToDoList\ToDoList.Android\obj\Debug\81\android\assets\System.Web.Services.dll
-C:\Dev\ToDoList\ToDoList\ToDoList.Android\obj\Debug\81\android\assets\Mono.Security.dll

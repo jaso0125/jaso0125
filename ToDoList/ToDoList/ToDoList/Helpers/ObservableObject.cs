@@ -6,7 +6,7 @@ using System.Runtime.CompilerServices;
 
 namespace ToDoList.Helpers
 {
-    class ObservableObject : INotifyPropertyChanged
+    public class ObservableObject : INotifyPropertyChanged
     {
         protected bool SetProperty<T>(
             ref T backingStore, T value,

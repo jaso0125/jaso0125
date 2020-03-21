@@ -6,7 +6,7 @@ using System.Text;
 
 namespace ToDoList.Models
 {
-    class ToDoFiltableCollection : ObservableCollection<ToDo>
+    public class ToDoFiltableCollection : ObservableCollection<ToDo>
     {
         // 元のリストデータ
         private List<ToDo> _items;

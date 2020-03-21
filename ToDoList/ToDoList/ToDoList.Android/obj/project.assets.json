@@ -340,6 +340,19 @@
           "build/Xamarin.Forms.props": {},
           "build/Xamarin.Forms.targets": {}
         }
+      },
+      "ToDoList/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Xamarin.Forms": "3.4.0.1008975"
+        },
+        "compile": {
+          "bin/placeholder/ToDoList.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ToDoList.dll": {}
+        }
       }
     }
   },
@@ -763,10 +776,16 @@
         "xamarin.forms.3.4.0.1008975.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
+    },
+    "ToDoList/1.0.0": {
+      "type": "project",
+      "path": "../ToDoList/ToDoList.csproj",
+      "msbuildProject": "../ToDoList/ToDoList.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "MonoAndroid,Version=v8.1": [
+      "ToDoList >= 1.0.0",
       "Xamarin.Android.Support.Design >= 27.0.2.1",
       "Xamarin.Android.Support.v4 >= 27.0.2.1",
       "Xamarin.Android.Support.v7.AppCompat >= 27.0.2.1",
@@ -801,7 +820,11 @@
       },
       "frameworks": {
         "monoandroid81": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Dev\\ToDoList\\ToDoList\\ToDoList\\ToDoList.csproj": {
+              "projectPath": "C:\\Dev\\ToDoList\\ToDoList\\ToDoList\\ToDoList.csproj"
+            }
+          }
         }
       }
     },

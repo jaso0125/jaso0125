@@ -5,7 +5,7 @@ using ToDoList.Helpers;
 
 namespace ToDoList.Models
 {
-    class ToDo : ObservableObject
+    public class ToDo : ObservableObject
     {
         //ユニークID
         public int Id { get; set; }
@@ -86,6 +86,33 @@ namespace ToDoList.Models
             get
             {
                 return this.DueDate == null ? "" : DueDate.Value.ToString("yyyy-MM-dd");
+            }
+        }
+
+        /// <summary>
+        /// 期日の指定の有無
+        /// </summary>
+        [System.Xml.Serialization.XmlIgnore]
+        public bool UseDueDate
+        {
+            get
+            {
+                return this.DueDate != null;
+            }
+            set
+            {
+                if (value == false)
+                {
+                    this.dueDate = null;
+                }
+                else
+                {
+                    if (this.dueDate == null)
+                    {
+                        this.dueDate = DateTime.Now;
+                    }
+                }
+                this.OnpropertyChanged(nameof(UseDueDate));
             }
         }
     }

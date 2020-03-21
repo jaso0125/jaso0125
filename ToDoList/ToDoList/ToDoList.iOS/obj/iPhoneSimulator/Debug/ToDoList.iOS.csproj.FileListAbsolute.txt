@@ -41,6 +41,8 @@ C:\Dev\ToDoList\ToDoList\ToDoList.iOS\bin\iPhoneSimulator\Debug\vi\Xamarin.Forms
 C:\Dev\ToDoList\ToDoList\ToDoList.iOS\bin\iPhoneSimulator\Debug\zh-HK\Xamarin.Forms.Platform.iOS.resources.dll
 C:\Dev\ToDoList\ToDoList\ToDoList.iOS\bin\iPhoneSimulator\Debug\zh-Hans\Xamarin.Forms.Platform.iOS.resources.dll
 C:\Dev\ToDoList\ToDoList\ToDoList.iOS\bin\iPhoneSimulator\Debug\zh-Hant\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Dev\ToDoList\ToDoList\ToDoList.iOS\bin\iPhoneSimulator\Debug\ToDoList.dll
+C:\Dev\ToDoList\ToDoList\ToDoList.iOS\bin\iPhoneSimulator\Debug\ToDoList.pdb
 C:\Dev\ToDoList\ToDoList\ToDoList.iOS\obj\iPhoneSimulator\Debug\ibtool\_BundleResourceWithLogicalName.items
 C:\Dev\ToDoList\ToDoList\ToDoList.iOS\obj\iPhoneSimulator\Debug\actool\_PartialAppManifest.items
 C:\Dev\ToDoList\ToDoList\ToDoList.iOS\obj\iPhoneSimulator\Debug\actool\_BundleResourceWithLogicalName.items
@@ -48,12 +50,8 @@ C:\Dev\ToDoList\ToDoList\ToDoList.iOS\obj\iPhoneSimulator\Debug\coremlc\_Partial
 C:\Dev\ToDoList\ToDoList\ToDoList.iOS\obj\iPhoneSimulator\Debug\coremlc\_BundleResourceWithLogicalName.items
 C:\Dev\ToDoList\ToDoList\ToDoList.iOS\obj\iPhoneSimulator\Debug\optimized\
 C:\Dev\ToDoList\ToDoList\ToDoList.iOS\obj\iPhoneSimulator\Debug\ToDoList.iOS.csprojAssemblyReference.cache
-C:\Dev\ToDoList\ToDoList\ToDoList.iOS\obj\iPhoneSimulator\Debug\App.xaml.g.cs
-C:\Dev\ToDoList\ToDoList\ToDoList.iOS\obj\iPhoneSimulator\Debug\Views\MainPage.xaml.g.cs
-C:\Dev\ToDoList\ToDoList\ToDoList.iOS\obj\iPhoneSimulator\Debug\Views\DetailPage.xaml.g.cs
 C:\Dev\ToDoList\ToDoList\ToDoList.iOS\obj\iPhoneSimulator\Debug\ToDoList.iOS.csproj.CoreCompileInputs.cache
 C:\Dev\ToDoList\ToDoList\ToDoList.iOS\obj\iPhoneSimulator\Debug\XamlC.stamp
 C:\Dev\ToDoList\ToDoList\ToDoList.iOS\obj\iPhoneSimulator\Debug\ToDoList.iOS.csproj.CopyComplete
 C:\Dev\ToDoList\ToDoList\ToDoList.iOS\obj\iPhoneSimulator\Debug\ToDoList.iOS.exe
 C:\Dev\ToDoList\ToDoList\ToDoList.iOS\obj\iPhoneSimulator\Debug\ToDoList.iOS.pdb
-C:\Dev\ToDoList\ToDoList\ToDoList.iOS\obj\iPhoneSimulator\Debug\Views\SettingPage.xaml.g.cs

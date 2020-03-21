@@ -124,6 +124,19 @@
           "build/Xamarin.Forms.props": {},
           "build/Xamarin.Forms.targets": {}
         }
+      },
+      "ToDoList/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Xamarin.Forms": "3.4.0.1008975"
+        },
+        "compile": {
+          "bin/placeholder/ToDoList.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ToDoList.dll": {}
+        }
       }
     },
     "Xamarin.iOS,Version=v1.0/win": {
@@ -248,6 +261,19 @@
         "build": {
           "build/Xamarin.Forms.props": {},
           "build/Xamarin.Forms.targets": {}
+        }
+      },
+      "ToDoList/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Xamarin.Forms": "3.4.0.1008975"
+        },
+        "compile": {
+          "bin/placeholder/ToDoList.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ToDoList.dll": {}
         }
       }
     },
@@ -374,6 +400,19 @@
           "build/Xamarin.Forms.props": {},
           "build/Xamarin.Forms.targets": {}
         }
+      },
+      "ToDoList/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Xamarin.Forms": "3.4.0.1008975"
+        },
+        "compile": {
+          "bin/placeholder/ToDoList.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ToDoList.dll": {}
+        }
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x86": {
@@ -498,6 +537,19 @@
         "build": {
           "build/Xamarin.Forms.props": {},
           "build/Xamarin.Forms.targets": {}
+        }
+      },
+      "ToDoList/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Xamarin.Forms": "3.4.0.1008975"
+        },
+        "compile": {
+          "bin/placeholder/ToDoList.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ToDoList.dll": {}
         }
       }
     }
@@ -648,10 +700,16 @@
         "xamarin.forms.3.4.0.1008975.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
+    },
+    "ToDoList/1.0.0": {
+      "type": "project",
+      "path": "../ToDoList/ToDoList.csproj",
+      "msbuildProject": "../ToDoList/ToDoList.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
+      "ToDoList >= 1.0.0",
       "Xamarin.Forms >= 3.4.0.1008975"
     ]
   },
@@ -681,7 +739,11 @@
       },
       "frameworks": {
         "xamarinios10": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Dev\\ToDoList\\ToDoList\\ToDoList\\ToDoList.csproj": {
+              "projectPath": "C:\\Dev\\ToDoList\\ToDoList\\ToDoList\\ToDoList.csproj"
+            }
+          }
         }
       }
     },

@@ -116,4 +116,14 @@ namespace ToDoList.Models
             }
         }
     }
+    /// <summary>
+    /// 設定クラス
+    /// </summary>
+    public class Setting
+    {
+        // 完了の表示
+        public bool DispCompleted { get; set; }
+        // 表示順 (0:作成順, 1:項目名順, 2:期日順)
+        public int SortOrder { get; set; }
+    }
 }

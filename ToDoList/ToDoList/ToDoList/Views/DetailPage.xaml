@@ -4,21 +4,25 @@
              x:Class="ToDoList.Views.DetailPage"       
              Title="{Binding Title}">
     <ContentPage.ToolbarItems>
-        <ToolbarItem Text="保存"/>
+        <ToolbarItem Text="保存" Clicked="Save_Clicked"/>
     </ContentPage.ToolbarItems>
     <ContentPage.Content>
         <StackLayout Spacing="20" Padding="15">
             <Label Text="ID" FontSize="Medium"/>
-            <Label Text="【ID】" FontSize="Small"/>
+            <Label Text="{Binding Id}" FontSize="Small"/>
             <Label Text="項目名" FontSize="Medium"/>
-            <Entry Text="【項目名】" FontSize="Small"/>
+            <Entry Text="{Binding Text}" FontSize="Small"/>
             <Label Text="期日" FontSize="Medium"/>
-            <Switch/>
-            <DatePicker />
+            <Switch IsToggled="{Binding UseDueDate}" />
+            <DatePicker Date="{Binding DispDueDate}" 
+                        IsVisible="{Binding UseDueDate}" 
+                        Format="yyyy-MM-dd"
+                        />
             <Label Text="完了" FontSize="Medium"/>
-            <Switch/>
+            <Switch IsToggled="{Binding Completed}"/>
             <Label Text="作成日" FontSize="Medium"/>
-            <Label Text="【yyyy-MM-dd】"/>
+            <Label Text="{Binding CreatedAt, StringFormat='{0:yyyy-MM-dd hh:mm}'}" FontSize="Small"/>
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

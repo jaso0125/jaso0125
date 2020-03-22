@@ -5,9 +5,10 @@
     <ContentPage.Content>
         <StackLayout Spacing="20" Padding="15">
             <Label Text="完了項目の表示" FontSize="Medium"/>
-            <Switch/>
+            <Switch IsToggled="{Binding DispCompleted}" />
             <Label Text="表示順" FontSize="Medium"/>
-            <Picker x:Name="pickOrder"/>
+            <Picker ItemsSource="{Binding SortItems}"
+                    SelectedIndex="{Binding SortOrder}" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

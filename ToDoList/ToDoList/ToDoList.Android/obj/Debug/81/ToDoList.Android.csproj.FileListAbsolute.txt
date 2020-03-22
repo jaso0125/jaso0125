@@ -103,4 +103,6 @@ C:\Dev\ToDoList\ToDoList\ToDoList.Android\obj\Debug\81\android\assets\ToDoList.A
 C:\Dev\ToDoList\ToDoList\ToDoList.Android\obj\Debug\81\android\assets\Xamarin.Forms.Core.pdb
 C:\Dev\ToDoList\ToDoList\ToDoList.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.Android.pdb
 C:\Dev\ToDoList\ToDoList\ToDoList.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.pdb
+C:\Dev\ToDoList\ToDoList\ToDoList\bin\Debug\netstandard2.0\ToDoList.dll
+C:\Dev\ToDoList\ToDoList\ToDoList.Android\bin\Debug\ToDoList.dll.mdb
 C:\Dev\ToDoList\ToDoList\ToDoList.Android\obj\Debug\81\linksrc\ToDoList.dll.mdb

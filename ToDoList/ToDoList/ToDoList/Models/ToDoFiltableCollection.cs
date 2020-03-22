@@ -68,7 +68,7 @@ namespace ToDoList.Models
         }
 
         // 位置を指定して項目を追加する
-        public new void Insert(int index,ToDo item)
+        public new void Insert(int index, ToDo item)
         {
             _items.Insert(index, item);
             UpdateFilter();
@@ -78,7 +78,7 @@ namespace ToDoList.Models
         public void Update(int id, ToDo item)
         {
             var it = _items.First(x => x.Id == id);
-            if(it != null)
+            if (it != null)
             {
                 item.Copy(it);
                 UpdateFilter();
@@ -88,10 +88,62 @@ namespace ToDoList.Models
         /// <summary>
         /// ソート状態のアップデート
         /// </summary>
-        private void UpdateFilter()
+        public void UpdateFilter()
         {
             // ソートを反映させる
             SetFilter(_dispCompleted, _sortOrder);
+        }
+
+        /// <summary>
+        /// ストリームへXML形式で保存する
+        /// </summary>
+        /// <param name="st"></param>
+        /// <returns></returns>
+        public bool Save(System.IO.Stream st)
+        {
+            try
+            {
+                st.SetLength(0);
+                var xs = new System.Xml.Serialization.XmlSerializer(typeof(ToDoFiltableCollection));
+                xs.Serialize(st, this);
+            }
+            catch (Exception)
+            {
+                // 保存に失敗した時
+                return false;
+            }
+            return true;
+        }
+        /// <summary>
+        /// ストリームからXML形式で復元する
+        /// </summary>
+        /// <param name="st"></param>
+        /// <returns></returns>
+        public bool Load(System.IO.Stream st)
+        {
+            try
+            {
+                var xs = new System.Xml.Serialization.XmlSerializer(typeof(ToDoFiltableCollection));
+                var newItems = xs.Deserialize(st) as ToDoFiltableCollection;
+                // データを更新する
+                this._items = newItems._items;
+                this.UpdateFilter();
+            }
+            catch (Exception ex)
+            {
+                // 読み込みに失敗した時
+                return false;
+            }
+            return true;
+        }
+
+        public static ToDoFiltableCollection MakeSampleData()
+        {
+            var lst = new List<ToDo>();
+            lst.Add(new ToDo() { Id = 1, Text = "sample no.1", DueDate = new DateTime(2017, 5, 1), CreatedAt = new DateTime(2017, 3, 1) });
+            lst.Add(new ToDo() { Id = 2, Text = "sample no.2", DueDate = new DateTime(2017, 5, 3), CreatedAt = new DateTime(2017, 3, 2) });
+            lst.Add(new ToDo() { Id = 3, Text = "sample no.3", DueDate = new DateTime(2017, 5, 2), CreatedAt = new DateTime(2017, 3, 3) });
+            return new ToDoFiltableCollection(lst);
         }
     }
 }

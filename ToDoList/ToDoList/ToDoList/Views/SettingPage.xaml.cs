@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using ToDoList.Models;
+using ToDoList.ViewModels;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -15,14 +16,22 @@ namespace ToDoList.Views
         public SettingPage()
         {
             InitializeComponent();
-            InitializeControlers();
         }
 
-        private void InitializeControlers()
+        public SettingPage(Setting item)
         {
-            pickOrder.Items.Add("作成順");
-            pickOrder.Items.Add("項目名順");
-            pickOrder.Items.Add("期日順");
+            InitializeComponent();
+            viewModel = new SettingViewModel(item);
+            BindingContext = viewModel;
+                
         }
+
+        protected override void OnDisappearing()
+        {
+            MessagingCenter.Send(this, "UpdateSetting");
+            base.OnDisappearing();
+        }
+
+        private SettingViewModel viewModel;
     }
 }

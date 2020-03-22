@@ -55,3 +55,4 @@ C:\Dev\ToDoList\ToDoList\ToDoList.iOS\obj\iPhoneSimulator\Debug\XamlC.stamp
 C:\Dev\ToDoList\ToDoList\ToDoList.iOS\obj\iPhoneSimulator\Debug\ToDoList.iOS.csproj.CopyComplete
 C:\Dev\ToDoList\ToDoList\ToDoList.iOS\obj\iPhoneSimulator\Debug\ToDoList.iOS.exe
 C:\Dev\ToDoList\ToDoList\ToDoList.iOS\obj\iPhoneSimulator\Debug\ToDoList.iOS.pdb
+C:\Dev\ToDoList\ToDoList\ToDoList.iOS\bin\iPhoneSimulator\Debug\ToDoList.dll.mdb

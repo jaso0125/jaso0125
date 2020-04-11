@@ -1,0 +1,62 @@
+{
+	"Initial30": {
+		"A": {
+			"API": "Application Programming Interfaceのこと"
+		},
+		"C": {
+			"CI": "Continuous Integrationのこと",
+			"CLI": "Command Line Interfaceのこと",
+			"CPU": "Central Processing Unitのこと",
+			"CSS": "Cascading Style Sheetのこと"
+		},
+		"D": {
+			"DNS": "Domain Name Systemのこと",
+			"DOM": "Document Object Modelのこと"
+		},
+		"H": {
+			"HTML": "HyperText Markup Languageのこと",
+			"HTTP": "HyperText Transfer Protocolのこと",
+			"HTTPS": "HyperText Transfer Protocol Secureのこと"
+		},
+		"I": {
+			"IDE": "Integrated Development Environmentのこと",
+			"IE": "Id Est（ラテン語で「つまり」）、Internet Explorerのこと",
+			"IO": "Input/Outputのこと",
+			"IP": "Internet Protocolのこと"
+		},
+		"J": {
+			"JSON": "JavaScript Object Notationのこと"
+		},
+		"N": {
+			"NFC": "Near Field Communicationのこと"
+		},
+		"O": {
+			"OS": "Operating Systemのこと"
+		},
+		"R": {
+			"RE": "Regular Expressionのこと",
+			"RGB": "Red Green Blueのこと"
+		},
+		"S": {
+			"SDK": "Software Development Kitのこと",
+			"SQL": "Structured Query Languageのこと",
+			"SSH": "Secure SHellのこと",
+			"SSL": "Secure Sockets Layerのこと"
+		},
+		"U": {
+			"UI": "User Interfaceのこと",
+			"URI": "Uniform Resource Identifierのこと",
+			"URL": "Uniform Resource Locatorのこと"
+		},
+		"V": {
+			"VM": "Virtual Machineのこと"
+		},
+		"W": {
+			"WIP": "Work In Progress（作業中）のこと",
+			"WWW": "World Wide Webのこと"
+		},
+		"X": {
+			"XML": "eXtensible Markup Languageのこと"
+		}
+	}
+}

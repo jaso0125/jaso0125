@@ -1,0 +1,1248 @@
+{
+	"Advanced300": {
+		"A": {
+			"abstract": {
+				"part": "【形容詞】",
+				"mean": "抽象的な、抽象の"
+			},
+			"accessibility": {
+				"part": "【名詞】",
+				"mean": "アクセシビリティー"
+			},
+			"accessible": {
+				"part": "【形容詞】",
+				"mean": "アクセス可能な、利用可能な"
+			},
+			"activate": {
+				"part": "【動詞】",
+				"mean": "有効にする、アクティブにする"
+			},
+			"active": {
+				"part": "【形容詞】",
+				"mean": "有効な、アクティブな"
+			},
+			"additional": {
+				"part": "【形容詞】",
+				"mean": "追加の"
+			},
+			"adjust": {
+				"part": "【動詞】",
+				"mean": "調整する"
+			},
+			"administrator": {
+				"part": "【名詞】",
+				"mean": "管理者"
+			},
+			"aggregate": {
+				"part": "【動詞】",
+				"mean": "集約する"
+			},
+			"alias": {
+				"part": "【名詞】",
+				"mean": "エイリアス、別名"
+			},
+			"allocation": {
+				"part": "【名詞】",
+				"mean": "割り当て"
+			},
+			"annotation": {
+				"part": "【名詞】",
+				"mean": "アノテーション、注釈"
+			},
+			"anonymous": {
+				"part": "【形容詞】",
+				"mean": "無名の、匿名の"
+			},
+			"append": {
+				"part": "【動詞】",
+				"mean": "追加する"
+			},
+			"applicable": {
+				"part": "【形容詞】",
+				"mean": "該当する、適用可能な"
+			},
+			"archive": {
+				"part": "【名詞／動詞】",
+				"mean": "アーカイブ／アーカイブする"
+			},
+			"assert": {
+				"part": "【動詞】",
+				"mean": "アサートする、表明する"
+			},
+			"asset": {
+				"part": "【名詞】",
+				"mean": "アセット、資産"
+			},
+			"assign": {
+				"part": "【動詞】",
+				"mean": "割り当てる、（変数に）代入する"
+			},
+			"assignment": {
+				"part": "【名詞】",
+				"mean": "割り当て、（変数への）代入"
+			},
+			"associate": {
+				"part": "【動詞】",
+				"mean": "関連づける"
+			},
+			"attach": {
+				"part": "【動詞】",
+				"mean": "接続する、添付する"
+			},
+			"authentication": {
+				"part": "【名詞】",
+				"mean": "認証"
+			},
+			"authorize": {
+				"part": "【動詞】",
+				"mean": "権限を与える"
+			},
+			"automatic": {
+				"part": "【形容詞】",
+				"mean": "自動の"
+			},
+			"automatically": {
+				"part": "【副詞】",
+				"mean": "自動で、自動的に"
+			},
+			"availability": {
+				"part": "【名詞】",
+				"mean": "可用性"
+			}
+		},
+		"B": {
+			"batch": {
+				"part": "【名詞】",
+				"mean": "バッチ"
+			},
+			"binary": {
+				"part": "【形容詞】",
+				"mean": "バイナリーの、二進法の"
+			},
+			"bind": {
+				"part": "【動詞】",
+				"mean": "バインドする"
+			},
+			"boot": {
+				"part": "【動詞／名詞】",
+				"mean": "起動する／起動"
+			},
+			"brace": {
+				"part": "【名詞】",
+				"mean": "波かっこ"
+			},
+			"bracket": {
+				"part": "【名詞】",
+				"mean": "角かっこ"
+			},
+			"breakpoint": {
+				"part": "【名詞】",
+				"mean": "ブレークポイント"
+			},
+			"browse": {
+				"part": "【動詞】",
+				"mean": "閲覧する、参照する"
+			},
+			"buffer": {
+				"part": "【名詞／動詞】",
+				"mean": "バッファー／バッファー処理する"
+			},
+			"bump": {
+				"part": "【動詞】",
+				"mean": "バージョンを上げる"
+			},
+			"bundle": {
+				"part": "【名詞／動詞】",
+				"mean": "バンドル／バンドルする"
+			}
+		},
+		"C": {
+			"calculate": {
+				"part": "【動詞】",
+				"mean": "計算する"
+			},
+			"callback": {
+				"part": "【名詞】",
+				"mean": "コールバック"
+			},
+			"capability": {
+				"part": "【名詞】",
+				"mean": "機能"
+			},
+			"capture": {
+				"part": "【動詞】",
+				"mean": "取り込む、キャプチャーする"
+			},
+			"caret": {
+				"part": "【名詞】",
+				"mean": "文字入力カーソル、カレット"
+			},
+			"cast": {
+				"part": "【動詞】",
+				"mean": "キャストする"
+			},
+			"certificate": {
+				"part": "【名詞】",
+				"mean": "証明書"
+			},
+			"checkout": {
+				"part": "【名詞】",
+				"mean": "チェックアウト"
+			},
+			"clarify": {
+				"part": "【動詞】",
+				"mean": "明確にする"
+			},
+			"cleanup": {
+				"part": "【名詞】",
+				"mean": "クリーンアップ、整理"
+			},
+			"clone": {
+				"part": "【動詞】",
+				"mean": "複製する、クローンする"
+			},
+			"collapse": {
+				"part": "【動詞】",
+				"mean": "折りたたむ、非表示にする"
+			},
+			"compatibility": {
+				"part": "【名詞】",
+				"mean": "互換性"
+			},
+			"compile": {
+				"part": "【動詞】",
+				"mean": "コンパイルする"
+			},
+			"completion": {
+				"part": "【名詞】",
+				"mean": "補完、完了"
+			},
+			"compress": {
+				"part": "【動詞】",
+				"mean": "圧縮する"
+			},
+			"compute": {
+				"part": "【動詞】",
+				"mean": "計算する"
+			},
+			"conditional": {
+				"part": "【形容詞】",
+				"mean": "条件つきの"
+			},
+			"configure": {
+				"part": "【動詞】",
+				"mean": "構成する、設定する"
+			},
+			"confirm": {
+				"part": "【動詞】",
+				"mean": "確定する、確認する"
+			},
+			"conflict": {
+				"part": "【動詞／名詞】",
+				"mean": "競合する／競合"
+			},
+			"constraint": {
+				"part": "【名詞】",
+				"mean": "制約"
+			},
+			"construct": {
+				"part": "【動詞】",
+				"mean": "（コンストラクターで）生成する"
+			},
+			"contact": {
+				"part": "【動詞／名詞】",
+				"mean": "連絡する／連絡先"
+			},
+			"contribute": {
+				"part": "【動詞】",
+				"mean": "貢献する"
+			},
+			"convert": {
+				"part": "【動詞】",
+				"mean": "変換する"
+			},
+			"coordinate": {
+				"part": "【名詞】",
+				"mean": "座標"
+			},
+			"copyright": {
+				"part": "【名詞】",
+				"mean": "著作権"
+			},
+			"crash": {
+				"part": "【動詞／名詞】",
+				"mean": "クラッシュする、突然停止する／クラッシュ"
+			},
+			"credential": {
+				"part": "【名詞】",
+				"mean": "資格情報、認証情報"
+			}
+		},
+		"D": {
+			"debugger": {
+				"part": "【名詞】",
+				"mean": "デバッガー"
+			},
+			"decimal": {
+				"part": "【形容詞】",
+				"mean": "小数の、十進法の"
+			},
+			"declaration": {
+				"part": "【名詞】",
+				"mean": "宣言"
+			},
+			"declare": {
+				"part": "【動詞】",
+				"mean": "宣言する"
+			},
+			"decode": {
+				"part": "【動詞】",
+				"mean": "デコードする"
+			},
+			"dedicated": {
+				"part": "【形容詞】",
+				"mean": "専用の"
+			},
+			"delay": {
+				"part": "【名詞】",
+				"mean": "遅延"
+			},
+			"dependency": {
+				"part": "【名詞】",
+				"mean": "依存関係"
+			},
+			"deploy": {
+				"part": "【動詞】",
+				"mean": "配備する、デプロイする"
+			},
+			"deployment": {
+				"part": "【名詞】",
+				"mean": "配備、デプロイ"
+			},
+			"deprecated": {
+				"part": "【形容詞】",
+				"mean": "非推奨の"
+			},
+			"deprecation": {
+				"part": "【名詞】",
+				"mean": "非推奨"
+			},
+			"descriptor": {
+				"part": "【名詞】",
+				"mean": "記述子"
+			},
+			"destination": {
+				"part": "【名詞】",
+				"mean": "目的地、～先（移動先など）"
+			},
+			"detect": {
+				"part": "【動詞】",
+				"mean": "検出する"
+			},
+			"digit": {
+				"part": "【名詞】",
+				"mean": "数字、桁"
+			},
+			"disable": {
+				"part": "【動詞】",
+				"mean": "無効にする"
+			},
+			"display": {
+				"part": "【動詞／名詞】",
+				"mean": "表示する／表示、画面"
+			},
+			"distribute": {
+				"part": "【動詞】",
+				"mean": "分散する、配布する"
+			},
+			"dump": {
+				"part": "【動詞】",
+				"mean": "ダンプする"
+			},
+			"duplicate": {
+				"part": "【形容詞／動詞】",
+				"mean": "重複する／複製する"
+			},
+			"duration": {
+				"part": "【名詞】",
+				"mean": "期間"
+			},
+			"dynamic": {
+				"part": "【形容詞】",
+				"mean": "動的な"
+			},
+			"dynamically": {
+				"part": "【副詞】",
+				"mean": "動的に"
+			}
+		},
+		"E": {
+			"emit": {
+				"part": "【動詞】",
+				"mean": "発する、生成する"
+			},
+			"enable": {
+				"part": "【動詞】",
+				"mean": "可能にする、有効にする"
+			},
+			"encode": {
+				"part": "【動詞】",
+				"mean": "エンコードする、符号化する"
+			},
+			"encoding": {
+				"part": "【名詞】",
+				"mean": "エンコーディング、符号化"
+			},
+			"encounter": {
+				"part": "【動詞】",
+				"mean": "遭遇する"
+			},
+			"encryption": {
+				"part": "【名詞】",
+				"mean": "暗号化"
+			},
+			"endpoint": {
+				"part": "【名詞】",
+				"mean": "エンドポイント、端点"
+			},
+			"ensure": {
+				"part": "【動詞】",
+				"mean": "確実にする、確かめる"
+			},
+			"entity": {
+				"part": "【名詞】",
+				"mean": "エンティティー、実体"
+			},
+			"enumeration": {
+				"part": "【名詞】",
+				"mean": "列挙"
+			},
+			"escape": {
+				"part": "【動詞】",
+				"mean": "エスケープする"
+			},
+			"exclude": {
+				"part": "【動詞】",
+				"mean": "除外する"
+			},
+			"executable": {
+				"part": "【形容詞／名詞】",
+				"mean": "実行可能な／実行可能ファイル"
+			},
+			"execute": {
+				"part": "【動詞】",
+				"mean": "実行する"
+			},
+			"execution": {
+				"part": "【名詞】",
+				"mean": "実行"
+			},
+			"existing": {
+				"part": "【形容詞】",
+				"mean": "既存の"
+			},
+			"extend": {
+				"part": "【動詞】",
+				"mean": "拡張する"
+			},
+			"extension": {
+				"part": "【名詞】",
+				"mean": "拡張、拡張子"
+			},
+			"external": {
+				"part": "【形容詞】",
+				"mean": "外部の"
+			},
+			"extract": {
+				"part": "【動詞】",
+				"mean": "抽出する"
+			}
+		},
+		"F": {
+			"failure": {
+				"part": "【名詞】",
+				"mean": "失敗、故障"
+			},
+			"fallback": {
+				"part": "【名詞／動詞】",
+				"mean": "フォールバック／フォールバックする"
+			},
+			"fetch": {
+				"part": "【動詞】",
+				"mean": "取得する、フェッチする"
+			},
+			"fire": {
+				"part": "【動詞】",
+				"mean": "始動する、発火する"
+			},
+			"framework": {
+				"part": "【名詞】",
+				"mean": "フレームワーク"
+			},
+			"functionality": {
+				"part": "【名詞】",
+				"mean": "機能"
+			}
+		},
+		"G": {
+			"generation": {
+				"part": "【名詞】",
+				"mean": "生成、世代"
+			},
+			"generic": {
+				"part": "【形容詞】",
+				"mean": "汎用の、総称の、ジェネリックの"
+			}
+		},
+		"H": {
+			"hack": {
+				"part": "【名詞／動詞】",
+				"mean": "ハッキング、一時回避策／ハックする、（その場しのぎで）作る"
+			},
+			"handle": {
+				"part": "【動詞／名詞】",
+				"mean": "処理する／ハンドル"
+			},
+			"handler": {
+				"part": "【名詞】",
+				"mean": "ハンドラー"
+			},
+			"handling": {
+				"part": "【名詞】",
+				"mean": "処理"
+			},
+			"hash": {
+				"part": "【名詞】",
+				"mean": "ハッシュ、ハッシュ記号"
+			},
+			"header": {
+				"part": "【名詞】",
+				"mean": "ヘッダー"
+			},
+			"hierarchy": {
+				"part": "【名詞】",
+				"mean": "階層"
+			}
+		},
+		"I": {
+			"identifier": {
+				"part": "【名詞】",
+				"mean": "識別子"
+			},
+			"implement": {
+				"part": "【動詞】",
+				"mean": "実装する"
+			},
+			"implementation": {
+				"part": "【名詞】",
+				"mean": "実装"
+			},
+			"incompatible": {
+				"part": "【形容詞】",
+				"mean": "互換性がない"
+			},
+			"increment": {
+				"part": "【名詞／動詞】",
+				"mean": "増分、インクリメント／増分させる"
+			},
+			"indentation": {
+				"part": "【名詞】",
+				"mean": "インデント"
+			},
+			"initial": {
+				"part": "【形容詞】",
+				"mean": "初期の、最初の"
+			},
+			"initialization": {
+				"part": "【名詞】",
+				"mean": "初期化"
+			},
+			"initialize": {
+				"part": "【動詞】",
+				"mean": "初期化する"
+			},
+			"inline": {
+				"part": "【形容詞／動詞】",
+				"mean": "インラインの／インライン化する"
+			},
+			"inner": {
+				"part": "【形容詞】",
+				"mean": "内部の、内側の"
+			},
+			"insert": {
+				"part": "【動詞】",
+				"mean": "挿入する"
+			},
+			"inspect": {
+				"part": "【動詞】",
+				"mean": "検査する"
+			},
+			"inspection": {
+				"part": "【名詞】",
+				"mean": "検査"
+			},
+			"installation": {
+				"part": "【名詞】",
+				"mean": "インストール"
+			},
+			"interact": {
+				"part": "【動詞】",
+				"mean": "対話する"
+			},
+			"internal": {
+				"part": "【形容詞】",
+				"mean": "内部の"
+			},
+			"interval": {
+				"part": "【名詞】",
+				"mean": "間隔"
+			},
+			"invalid": {
+				"part": "【形容詞】",
+				"mean": "無効な"
+			},
+			"invoke": {
+				"part": "【動詞】",
+				"mean": "呼び出す"
+			},
+			"iterate": {
+				"part": "【動詞】",
+				"mean": "（処理を）反復する、繰り返す"
+			}
+		},
+		"L": {
+			"latency": {
+				"part": "【名詞】",
+				"mean": "待ち時間"
+			},
+			"launch": {
+				"part": "【動詞】",
+				"mean": "起動する、開始する"
+			},
+			"listener": {
+				"part": "【名詞】",
+				"mean": "リスナー"
+			},
+			"load": {
+				"part": "【動詞】",
+				"mean": "読み込む"
+			},
+			"locale": {
+				"part": "【名詞】",
+				"mean": "ロケール"
+			},
+			"logic": {
+				"part": "【名詞】",
+				"mean": "ロジック、論理"
+			},
+			"lookup": {
+				"part": "【名詞】",
+				"mean": "検索、探索、ルックアップ"
+			}
+		},
+		"M": {
+			"manual": {
+				"part": "【形容詞／名詞】",
+				"mean": "手動の／マニュアル"
+			},
+			"manually": {
+				"part": "【副詞】",
+				"mean": "手動で"
+			},
+			"map": {
+				"part": "【名詞／動詞】",
+				"mean": "地図／対応づける、マッピングする"
+			},
+			"master": {
+				"part": "【名詞】",
+				"mean": "マスター"
+			},
+			"matching": {
+				"part": "【形容詞】",
+				"mean": "一致する、マッチする"
+			},
+			"maximum": {
+				"part": "【形容詞】",
+				"mean": "最大の"
+			},
+			"metadata": {
+				"part": "【名詞】",
+				"mean": "メタデータ"
+			},
+			"migration": {
+				"part": "【名詞】",
+				"mean": "移行"
+			},
+			"millisecond": {
+				"part": "【名詞】",
+				"mean": "ミリ秒"
+			},
+			"minimum": {
+				"part": "【形容詞】",
+				"mean": "最小の"
+			},
+			"minor": {
+				"part": "【形容詞】",
+				"mean": "マイナーな、小さな"
+			},
+			"mock": {
+				"part": "【形容詞】",
+				"mean": "モックの、模造の"
+			},
+			"modification": {
+				"part": "【名詞】",
+				"mean": "修正、変更"
+			},
+			"modifier": {
+				"part": "【名詞】",
+				"mean": "修飾子"
+			},
+			"modify": {
+				"part": "【動詞】",
+				"mean": "修正する、変更する"
+			},
+			"monitor": {
+				"part": "【動詞】",
+				"mean": "監視する"
+			},
+			"multiple": {
+				"part": "【形容詞】",
+				"mean": "複数の"
+			}
+		},
+		"N": {
+			"namespace": {
+				"part": "【名詞】",
+				"mean": "名前空間"
+			},
+			"native": {
+				"part": "【形容詞】",
+				"mean": "ネイティブの"
+			},
+			"navigate": {
+				"part": "【動詞】",
+				"mean": "移動する"
+			},
+			"navigation": {
+				"part": "【名詞】",
+				"mean": "ナビゲーション、移動"
+			},
+			"nested": {
+				"part": "【形容詞】",
+				"mean": "入れ子の、ネストされた"
+			},
+			"normalize": {
+				"part": "【動詞】",
+				"mean": "標準化する、正規化する"
+			},
+			"notification": {
+				"part": "【名詞】",
+				"mean": "通知"
+			},
+			"notify": {
+				"part": "【動詞】",
+				"mean": "通知する"
+			},
+			"numeric": {
+				"part": "【形容詞】",
+				"mean": "数値の"
+			}
+		},
+		"O": {
+			"obtain": {
+				"part": "【動詞】",
+				"mean": "取得する"
+			},
+			"occurrence": {
+				"part": "【名詞】",
+				"mean": "出現、発生"
+			},
+			"offset": {
+				"part": "【名詞】",
+				"mean": "オフセット"
+			},
+			"optimize": {
+				"part": "【動詞】",
+				"mean": "最適化する"
+			},
+			"otherwise": {
+				"part": "【副詞】",
+				"mean": "そうでなければ、さもないと"
+			},
+			"overview": {
+				"part": "【名詞】",
+				"mean": "概要"
+			},
+			"overwrite": {
+				"part": "【動詞】",
+				"mean": "上書きする"
+			}
+		},
+		"P": {
+			"padding": {
+				"part": "【名詞】",
+				"mean": "パディング"
+			},
+			"parenthesis": {
+				"part": "【名詞】",
+				"mean": "丸かっこ"
+			},
+			"parse": {
+				"part": "【動詞】",
+				"mean": "パースする、解析する"
+			},
+			"payload": {
+				"part": "【名詞】",
+				"mean": "ペイロード"
+			},
+			"permit": {
+				"part": "【動詞】",
+				"mean": "許可する"
+			},
+			"persistence": {
+				"part": "【名詞】",
+				"mean": "永続化"
+			},
+			"placeholder": {
+				"part": "【名詞】",
+				"mean": "プレースホルダー"
+			},
+			"plugin": {
+				"part": "【名詞】",
+				"mean": "プラグイン"
+			},
+			"populate": {
+				"part": "【動詞】",
+				"mean": "自動入力する"
+			},
+			"preference": {
+				"part": "【名詞】",
+				"mean": "プリファレンス、ユーザー設定"
+			},
+			"preferred": {
+				"part": "【形容詞】",
+				"mean": "優先の"
+			},
+			"prefix": {
+				"part": "【名詞】",
+				"mean": "接頭辞、プレフィックス"
+			},
+			"priority": {
+				"part": "【名詞】",
+				"mean": "優先順位、優先度"
+			},
+			"private": {
+				"part": "【形容詞】",
+				"mean": "プライベートな、非公開の"
+			},
+			"progress": {
+				"part": "【名詞】",
+				"mean": "進行状況"
+			},
+			"protocol": {
+				"part": "【名詞】",
+				"mean": "プロトコル"
+			},
+			"prototype": {
+				"part": "【名詞】",
+				"mean": "プロトタイプ"
+			},
+			"provider": {
+				"part": "【名詞】",
+				"mean": "プロバイダー"
+			},
+			"provision": {
+				"part": "【名詞／動詞】",
+				"mean": "プロビジョニング／供給する"
+			},
+			"proxy": {
+				"part": "【名詞】",
+				"mean": "プロキシ"
+			}
+		},
+		"Q": {
+			"queue": {
+				"part": "【名詞】",
+				"mean": "キュー、待ち行列"
+			}
+		},
+		"R": {
+			"raw": {
+				"part": "【形容詞】",
+				"mean": "生の"
+			},
+			"redirect": {
+				"part": "【動詞】",
+				"mean": "リダイレクトする、転送する"
+			},
+			"redundant": {
+				"part": "【形容詞】",
+				"mean": "冗長な"
+			},
+			"refresh": {
+				"part": "【動詞】",
+				"mean": "更新する"
+			},
+			"register": {
+				"part": "【動詞】",
+				"mean": "登録する"
+			},
+			"registration": {
+				"part": "【名詞】",
+				"mean": "登録"
+			},
+			"registry": {
+				"part": "【名詞】",
+				"mean": "レジストリー"
+			},
+			"reload": {
+				"part": "【動詞】",
+				"mean": "再読み込みする、リロードする"
+			},
+			"remote": {
+				"part": "【形容詞】",
+				"mean": "遠隔の、リモートの"
+			},
+			"removal": {
+				"part": "【名詞】",
+				"mean": "削除、除去"
+			},
+			"render": {
+				"part": "【動詞】",
+				"mean": "描画する、レンダリングする"
+			},
+			"repository": {
+				"part": "【名詞】",
+				"mean": "リポジトリー"
+			},
+			"represent": {
+				"part": "【動詞】",
+				"mean": "表す"
+			},
+			"representation": {
+				"part": "【名詞】",
+				"mean": "表現"
+			},
+			"reserve": {
+				"part": "【動詞】",
+				"mean": "予約する、確保する"
+			},
+			"resize": {
+				"part": "【動詞】",
+				"mean": "サイズ変更する"
+			},
+			"resolution": {
+				"part": "【名詞】",
+				"mean": "解像度、精度、解決"
+			},
+			"resolve": {
+				"part": "【動詞】",
+				"mean": "解決する"
+			},
+			"restore": {
+				"part": "【動詞】",
+				"mean": "復元する"
+			},
+			"restriction": {
+				"part": "【名詞】",
+				"mean": "制限"
+			},
+			"retrieve": {
+				"part": "【動詞】",
+				"mean": "取得する"
+			},
+			"revert": {
+				"part": "【動詞】",
+				"mean": "（以前の状態に）戻る、戻す"
+			},
+			"revision": {
+				"part": "【名詞】",
+				"mean": "改訂、リビジョン"
+			},
+			"runtime": {
+				"part": "【名詞】",
+				"mean": "実行時、ランタイム"
+			},
+			"S": {
+				"sanitize": {
+					"part": "【動詞】",
+					"mean": "サニタイズする"
+				},
+				"scale": {
+					"part": "【動詞】",
+					"mean": "（大きさを）変える"
+				},
+				"schema": {
+					"part": "【名詞】",
+					"mean": "スキーマ"
+				},
+				"scope": {
+					"part": "【名詞】",
+					"mean": "スコープ、範囲"
+				},
+				"secure": {
+					"part": "【形容詞】",
+					"mean": "セキュアな、安全な"
+				},
+				"separator": {
+					"part": "【名詞】",
+					"mean": "セパレーター、区切り"
+				},
+				"sequence": {
+					"part": "【名詞】",
+					"mean": "シーケンス"
+				},
+				"serialize": {
+					"part": "【動詞】",
+					"mean": "シリアル化する"
+				},
+				"session": {
+					"part": "【名詞】",
+					"mean": "セッション"
+				},
+				"setup": {
+					"part": "【名詞】",
+					"mean": "設定、構成、セットアップ"
+				},
+				"shutdown": {
+					"part": "【名詞】",
+					"mean": "シャットダウン"
+				},
+				"signature": {
+					"part": "【名詞】",
+					"mean": "署名、シグネチャー"
+				},
+				"simplify": {
+					"part": "【動詞】",
+					"mean": "簡素化する"
+				},
+				"snapshot": {
+					"part": "【名詞】",
+					"mean": "スナップショット"
+				},
+				"socket": {
+					"part": "【名詞】",
+					"mean": "ソケット"
+				},
+				"specification": {
+					"part": "【名詞】",
+					"mean": "仕様"
+				},
+				"split": {
+					"part": "【動詞】",
+					"mean": "分割する"
+				},
+				"stack": {
+					"part": "【名詞】",
+					"mean": "スタック"
+				},
+				"standalone": {
+					"part": "【形容詞】",
+					"mean": "スタンドアロンの"
+				},
+				"startup": {
+					"part": "【名詞】",
+					"mean": "起動、スタートアップ"
+				},
+				"static": {
+					"part": "【形容詞】",
+					"mean": "静的な"
+				},
+				"storage": {
+					"part": "【名詞】",
+					"mean": "ストレージ"
+				},
+				"stream": {
+					"part": "【名詞】",
+					"mean": "ストリーム"
+				},
+				"successfully": {
+					"part": "【副詞】",
+					"mean": "正常に"
+				},
+				"suffix": {
+					"part": "【名詞】",
+					"mean": "接尾辞、サフィックス"
+				},
+				"suppress": {
+					"part": "【動詞】",
+					"mean": "表示しない"
+				},
+				"synchronize": {
+					"part": "【動詞】",
+					"mean": "同期する"
+				},
+				"syntax": {
+					"part": "【名詞】",
+					"mean": "構文、シンタックス"
+				}
+			},
+			"T": {
+				"terminate": {
+					"part": "【動詞】",
+					"mean": "終了する"
+				},
+				"termination": {
+					"part": "【名詞】",
+					"mean": "終了"
+				},
+				"terms": {
+					"part": "【名詞】",
+					"mean": "利用条件"
+				},
+				"third party": {
+					"part": "【名詞】",
+					"mean": "サード・パーティー、第三者"
+				},
+				"thread": {
+					"part": "【名詞】",
+					"mean": "スレッド"
+				},
+				"timestamp": {
+					"part": "【名詞】",
+					"mean": "タイムスタンプ"
+				},
+				"todo": {
+					"part": "【名詞】",
+					"mean": "TODO、するべきこと"
+				},
+				"toggle": {
+					"part": "【動詞】",
+					"mean": "切り替える"
+				},
+				"token": {
+					"part": "【名詞】",
+					"mean": "トークン"
+				},
+				"transaction": {
+					"part": "【名詞】",
+					"mean": "トランザクション"
+				},
+				"transfer": {
+					"part": "【動詞】",
+					"mean": "転送する"
+				},
+				"transform": {
+					"part": "【動詞】",
+					"mean": "変換する、変形する"
+				},
+				"transition": {
+					"part": "【名詞】",
+					"mean": "遷移"
+				},
+				"trigger": {
+					"part": "【動詞】",
+					"mean": "トリガーする"
+				},
+				"tweak": {
+					"part": "【動詞】",
+					"mean": "微調整する"
+				},
+				"typo": {
+					"part": "【名詞】",
+					"mean": "入力ミス、タイポ"
+				}
+			},
+			"U": {
+				"unauthorized": {
+					"part": "【形容詞】",
+					"mean": "権限のない"
+				},
+				"unavailable": {
+					"part": "【形容詞】",
+					"mean": "利用できない"
+				},
+				"undefined": {
+					"part": "【形容詞】",
+					"mean": "未定義の"
+				},
+				"unexpected": {
+					"part": "【形容詞】",
+					"mean": "予期しない"
+				},
+				"unique": {
+					"part": "【形容詞】",
+					"mean": "一意の、固有の"
+				},
+				"unknown": {
+					"part": "【形容詞】",
+					"mean": "不明の"
+				},
+				"unnecessary": {
+					"part": "【形容詞】",
+					"mean": "不要な"
+				},
+				"unresolved": {
+					"part": "【形容詞】",
+					"mean": "未解決の"
+				},
+				"unsupported": {
+					"part": "【形容詞】",
+					"mean": "非対応の、サポートされない"
+				},
+				"usage": {
+					"part": "【名詞】",
+					"mean": "利用、使用"
+				},
+				"username": {
+					"part": "【名詞】",
+					"mean": "ユーザー名"
+				}
+			},
+			"V": {
+				"valid": {
+					"part": "【形容詞】",
+					"mean": "有効な"
+				},
+				"validate": {
+					"part": "【動詞】",
+					"mean": "（妥当性を）確認する、検証する"
+				},
+				"validation": {
+					"part": "【名詞】",
+					"mean": "検証"
+				},
+				"verbose": {
+					"part": "【形容詞】",
+					"mean": "詳細な"
+				},
+				"verify": {
+					"part": "【動詞】",
+					"mean": "（正しいことを）確認する、検証する"
+				},
+				"virtual": {
+					"part": "【形容詞】",
+					"mean": "仮想の"
+				},
+				"visibility": {
+					"part": "【名詞】",
+					"mean": "可視性、可視範囲"
+				},
+				"visible": {
+					"part": "【形容詞】",
+					"mean": "可視の、表示できる"
+				}
+			},
+			"W": {
+				"whitespace": {
+					"part": "【名詞】",
+					"mean": "空白、スペース"
+				},
+				"wrap": {
+					"part": "【動詞】",
+					"mean": "ラップする、（テキストを）折り返す"
+				},
+				"wrapper": {
+					"part": "【名詞】",
+					"mean": "ラッパー"
+				}
+			},
+			"Z": {
+				"zip": {
+					"part": "【動詞】",
+					"mean": "（ファイルを）圧縮する"
+				}
+			}
+		}
+	}
+}

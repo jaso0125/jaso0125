@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProEngApp.Views.AdvancedLearnPage">
+
+    <ContentPage.Content>
+        <StackLayout Margin="10" HorizontalOptions="CenterAndExpand">
+            <ListView ItemsSource="{Binding AdvancedList}"
+                      SelectedItem="{Binding SelectedItem}"
+                      SeparatorVisibility="None"
+                      RowHeight="40">
+                <ListView.Header>
+                    <Grid BackgroundColor="White">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="1" />
+                            <ColumnDefinition Width="400*" />
+                            <ColumnDefinition Width="1" />
+                            <ColumnDefinition Width="500*" />
+                            <ColumnDefinition Width="1" />
+                            <ColumnDefinition Width="400*" />
+                            <ColumnDefinition Width="1" />
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="1"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="1"/>
+                        </Grid.RowDefinitions>
+                        <!--横の罫線-->
+                        <BoxView Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="7" BackgroundColor="White" HeightRequest="1" VerticalOptions="End" HorizontalOptions="Fill"/>
+                        <BoxView Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="7" BackgroundColor="White" HeightRequest="1" VerticalOptions="End" HorizontalOptions="Fill"/>
+                        <!--縦の罫線-->
+                        <BoxView Grid.Column="0" Grid.Row="0" Grid.RowSpan="3"  BackgroundColor="White" WidthRequest="1" VerticalOptions="FillAndExpand" HorizontalOptions="End"/>
+                        <BoxView Grid.Column="2" Grid.Row="0" Grid.RowSpan="3"  BackgroundColor="White" WidthRequest="1" VerticalOptions="FillAndExpand" HorizontalOptions="End"/>
+                        <BoxView Grid.Column="4" Grid.Row="0" Grid.RowSpan="3"  BackgroundColor="White" WidthRequest="1" VerticalOptions="FillAndExpand" HorizontalOptions="End"/>
+                        <BoxView Grid.Column="6" Grid.Row="0" Grid.RowSpan="3"  BackgroundColor="White" WidthRequest="1" VerticalOptions="FillAndExpand" HorizontalOptions="End"/>
+
+                        <Label  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Margin="-6,-6,-6,-6" VerticalTextAlignment="Center" Grid.Row="1" Grid.Column="1"  HorizontalTextAlignment="Center" Text="単語" FontSize="Small" BackgroundColor="Navy" TextColor="White"/>
+                        <Label  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Margin="-6,-6,-6,-6" VerticalTextAlignment="Center" Grid.Row="1" Grid.Column="3"  HorizontalTextAlignment="Center" Text="意味" FontSize="Small" BackgroundColor="Navy" TextColor="White"/>
+                        <Label  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Margin="-6,-6,-6,-6" VerticalTextAlignment="Center" Grid.Row="1" Grid.Column="5"  HorizontalTextAlignment="Center" Text="品詞" FontSize="Small" BackgroundColor="Navy" TextColor="White"/>
+                    </Grid>
+                </ListView.Header>
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="1" />
+                                    <ColumnDefinition Width="400*" />
+                                    <ColumnDefinition Width="1" />
+                                    <ColumnDefinition Width="500*" />
+                                    <ColumnDefinition Width="1" />
+                                    <ColumnDefinition Width="400*" />
+                                    <ColumnDefinition Width="1" />
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="1"/>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="1"/>
+                                </Grid.RowDefinitions>
+                                <!--横の罫線-->
+                                <BoxView Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="7" BackgroundColor="Black" HeightRequest="1" VerticalOptions="End" HorizontalOptions="FillAndExpand"/>
+                                <BoxView Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="7" BackgroundColor="Black" HeightRequest="1" VerticalOptions="End" HorizontalOptions="FillAndExpand"/>
+                                <!--縦の罫線-->
+                                <BoxView Grid.Column="0" Grid.Row="0" Grid.RowSpan="3"  BackgroundColor="Black" WidthRequest="1" VerticalOptions="FillAndExpand" HorizontalOptions="End"/>
+                                <BoxView Grid.Column="2" Grid.Row="0" Grid.RowSpan="3"  BackgroundColor="Black" WidthRequest="1" VerticalOptions="FillAndExpand" HorizontalOptions="End"/>
+                                <BoxView Grid.Column="4" Grid.Row="0" Grid.RowSpan="3"  BackgroundColor="Black" WidthRequest="1" VerticalOptions="FillAndExpand" HorizontalOptions="End"/>
+                                <BoxView Grid.Column="6" Grid.Row="0" Grid.RowSpan="3"  BackgroundColor="Black" WidthRequest="1" VerticalOptions="FillAndExpand" HorizontalOptions="End"/>
+
+                                <Label HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Margin="-6,-6,-6,-6" VerticalTextAlignment="Center" Grid.Row="1" Grid.Column="1"  HorizontalTextAlignment="Center" Text="{Binding name}"  FontSize="Micro" LineBreakMode="CharacterWrap"/>
+                                <Label HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Margin="-6,-6,-6,-6" VerticalTextAlignment="Center" Grid.Row="1" Grid.Column="3"  HorizontalTextAlignment="Center" Text="{Binding mean}"  FontSize="Micro" LineBreakMode="CharacterWrap"/>
+                                <Label HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Margin="-6,-6,-6,-6" VerticalTextAlignment="Center" Grid.Row="1" Grid.Column="5"  HorizontalTextAlignment="Center" Text="{Binding part}" FontSize="Micro" LineBreakMode="CharacterWrap"/>
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

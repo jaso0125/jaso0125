@@ -1,0 +1,108 @@
+{
+	"Abbreviation70": {
+		"A": {
+			"addr": "addressの略",
+			"admin": "administratorの略",
+			"app": "applicationの略",
+			"arg": "argumentの略",
+			"args": "argumentsの略",
+			"async": "asynchronization（非同期）の略",
+			"attr": "attributeの略",
+			"attrs": "attributesの略",
+			"auth": "authorization（権限付与）、authenticationの略",
+			"auto": "automatic、automaticallyの略"
+		},
+		"C": {
+			"cert": "certified（認定された）、certificateの略",
+			"char": "characterの略",
+			"cmd": "commandの略",
+			"config": "configurationの略",
+			"conn": "connectionの略",
+			"ctrl": "Controlキーの略",
+			"cur": "current、cursorの略"
+		},
+		"D": {
+			"db": "databaseの略",
+			"deps": "dependenciesの略",
+			"dest": "destinationの略",
+			"dev": "developer、developmentの略",
+			"dict": "dictionaryの略",
+			"diff": "differenceの略",
+			"dir": "directoryの略",
+			"doc": "documentの略"
+		},
+		"E": {
+			"enum": "enumerationの略",
+			"env": "environmentの略",
+			"err": "errorの略",
+			"exec": "executionの略"
+		},
+		"F": {
+			"fn": "functionの略"
+		},
+		"G": {
+			"gen": "generationの略"
+		},
+		"I": {
+			"id": "identification、identifierの略",
+			"idx": "indexの略",
+			"impl": "implementationの略",
+			"info": "informationの略",
+			"init": "initializationの略",
+			"int": "integerの略"
+		},
+		"L": {
+			"lib": "libraryの略"
+		},
+		"M": {
+			"max": "maximumの略",
+			"min": "minimum、minuteの略",
+			"msg": "messageの略"
+		},
+		"N": {
+			"num": "numberの略"
+		},
+		"O": {
+			"obj": "objectの略",
+			"op": "operationの略",
+			"opts": "optionsの略"
+		},
+		"P": {
+			"param": "parameterの略",
+			"params": "parametersの略",
+			"pos": "positionの略",
+			"prev": "previousの略",
+			"prop": "propertyの略",
+			"props": "propertiesの略"
+		},
+		"R": {
+			"ref": "referenceの略",
+			"refs": "referencesの略",
+			"regex": "regular expressionの略",
+			"repo": "repositoryの略",
+			"req": "requestの略",
+			"res": "responseの略",
+			"resp": "responseの略",
+			"ret": "returnの略"
+		},
+		"S": {
+			"spec": "specificationの略",
+			"src": "sourceの略",
+			"str": "stringの略",
+			"sync": "synchronization（同期）の略"
+		},
+		"T": {
+			"temp": "temporaryの略",
+			"tmp": "temporaryの略"
+		},
+		"U": {
+			"usr": "userの略",
+			"utils": "utilities（ユーティリティー）の略"
+		},
+		"V": {
+			"val": "valueの略",
+			"var": "variableの略",
+			"vars": "variablesの略"
+		}
+	}
+}

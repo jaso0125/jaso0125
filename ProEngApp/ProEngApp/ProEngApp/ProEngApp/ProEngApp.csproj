@@ -10,11 +10,44 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="3.4.0.1008975" />
+    <None Remove="Data\Abbreviation70.json" />
+    <None Remove="Data\Advanced300.json" />
+    <None Remove="Data\Basic300.json" />
+    <None Remove="Data\Initial30.json" />
+    <None Remove="Data\Premise100.json" />
+    <None Remove="Data\Summary.json" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="ViewModel\" />
-    <Folder Include="Model\" />
+    <EmbeddedResource Include="Data\Abbreviation70.json" />
+    <EmbeddedResource Include="Data\Advanced300.json" />
+    <EmbeddedResource Include="Data\Basic300.json" />
+    <EmbeddedResource Include="Data\Initial30.json" />
+    <EmbeddedResource Include="Data\Premise100.json" />
+    <EmbeddedResource Include="Data\Summary.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="Xamarin.Forms" Version="3.4.0.1008975" />  
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Views\BasicLearnPage.xaml.cs">
+      <DependentUpon>BasicLearnPage.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Views\AdvancedLearnPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\MainPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
 </Project>

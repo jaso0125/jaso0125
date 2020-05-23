@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProEngApp.Views.MainPage">
+    <ContentPage.Content>
+        <StackLayout Spacing="30">
+            <Label Text="プログラミング必須英単語600+"
+                VerticalOptions="Start" 
+                HorizontalOptions="CenterAndExpand"
+                   FontSize="Large"/>
+            <StackLayout Orientation="Horizontal">
+                <Button Text="学習モード"
+                    BackgroundColor="LawnGreen"
+                    VerticalOptions="StartAndExpand"
+                    HorizontalOptions="FillAndExpand"
+                    x:Name="LearnButton"/>
+                <Button Text="クイズモード"
+                    BackgroundColor="Gray"
+                    VerticalOptions="StartAndExpand"
+                    HorizontalOptions="FillAndExpand"
+                    x:Name="QuizButton"/>
+            </StackLayout>
+            <StackLayout Orientation="Vertical" 
+                         Spacing="30">
+                <Button Text="前提英語100"
+                    BackgroundColor="Orange"
+                    VerticalOptions="Center"
+                    HorizontalOptions="CenterAndExpand"
+                    x:Name="PremiseButton"/>
+                <Button Text="ベーシック300"
+                    BackgroundColor="Orange"
+                    VerticalOptions="Center"
+                    HorizontalOptions="CenterAndExpand"
+                        Clicked="BasicButton_Clicked"
+                    x:Name="BasicButton"/>
+                <Button Text="アドバンスト300"
+                    BackgroundColor="Orange"
+                    VerticalOptions="Center"
+                    HorizontalOptions="CenterAndExpand"
+                        Clicked="AdvancedButton_Clicked"
+                    x:Name="AdvancedButton"/>
+                <Button Text="略語70"
+                    BackgroundColor="Orange"
+                    VerticalOptions="Center"
+                    HorizontalOptions="CenterAndExpand"
+                    x:Name="AbbreviationButton"/>
+                <Button Text="頭文字30"
+                    BackgroundColor="Orange"
+                    VerticalOptions="Center"
+                    HorizontalOptions="CenterAndExpand"
+                    x:Name="InitialButton"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
